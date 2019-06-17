@@ -1,26 +1,20 @@
-$(document).ready(function() {
-    $(".icon-hiddens ").click(function() {
-      $(".icon-showings ").show();
-      $(".icon-hiddens ").hide();
+$(document).ready(function(){
+    $(".tablehead").click(function(){
+        $(this).next("div").slideToggle("slow");
     });
-    $(".icon-showings ").click(function() {
-        $(".icon-hiddens ").show();
-        $(".icon-showings ").hide();
-      });
-      $(".icon-hid").click(function() {
-        $(".icon-show ").show();
-        $(".icon-hid").hide();
-      });
-      $(".icon-show ").click(function() {
-          $(".icon-hid").show();
-          $(".icon-show ").hide();
-     });
-     $(".icon-hidden ").click(function() {
-        $(".icon-showing ").show();
-        $(".icon-hidden ").hide();
-      });
-      $(".icon-showing ").click(function() {
-          $(".icon-hidden ").show();
-          $(".icon-showing ").hide();
-        });
-     
+});
+
+function invoice() {
+
+
+var size = document.querySelector('input[name="size"]:checked').value; console.log("size="+size);
+var sizePrice = 0;
+if (size === "Small") {
+    sizePrice = 4;
+};
+if (size === "Medium") {
+    sizePrice = 6;
+};
+if (size === "Large") {
+    sizePrice = 12;
+};console.log("sizePrice="+sizePrice);
