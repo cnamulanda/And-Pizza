@@ -5,9 +5,17 @@ img-title{
     transform:translate(-50%,-50%);
 }
 .box {
-    background-image:url(http://img1.wsimg.com/isteam/stock/2999);
+    
     padding: 200px 100px;
     margin:100px
 }
+body{
+    background-image:url("https://wallpapercave.com/wp/wp2440778.jpg");
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(148,0,211);
 
+}
 
