@@ -19,8 +19,8 @@ if (size === "Medium") {
 if (size === "Large") {
     sizePrice = 12;
     console.log("sizePrice="+sizePrice);
-}
-}
+};
+
 var cheese=document.querySelector('input[name="cheese"]:checked').value;
 console.log("cheese"=+cheese);
 if (cheese==="Extra cheese") {
@@ -29,4 +29,12 @@ if (cheese==="Extra cheese") {
 if (cheese==="regular cheese") {
     cheeseprice=1;
     console.log("cheeseprice="+cheeseprice);
+};
+var size=document.querySelector('input[name="crust"]:checked').value;
+console.log("crust"=+crust);
+if (crust=="plain crust")
+plaincrustprice=20;
+console.log("crustprice="+crustprice);
+if (crust==="Garlic butter crust") {
+    Garlicbutterprice=30;
 }
