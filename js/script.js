@@ -37,4 +37,7 @@ plaincrustprice=20;
 console.log("crustprice="+crustprice);
 if (crust==="Garlic butter crust") {
     Garlicbutterprice=30;
+    console.log("Garlicbutterprice="+Garlicbutterprice);
 }
+var totalPrice = (crustPrice + cheesePrice + sizePrice); console.log("totalPrice="+totalPrice);
+};
