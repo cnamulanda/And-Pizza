@@ -4,5 +4,10 @@ img-title{
     left:50%;
     transform:translate(-50%,-50%);
 }
+.box {
+    background-image:url(http://img1.wsimg.com/isteam/stock/2999);
+    padding: 200px 100px;
+    margin:100px
+}
 
 
