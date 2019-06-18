@@ -7,7 +7,8 @@ $(document).ready(function(){
 function invoice() {
 
 
-var size = document.querySelector('input[name="size"]:checked').value; console.log("size="+size);
+var size = document.querySelector('input[name="size"]:checked').value; 
+console.log("size="+size);
 var sizePrice = 0;
 if (size === "Small") {
     sizePrice = 4;
@@ -17,4 +18,15 @@ if (size === "Medium") {
 };
 if (size === "Large") {
     sizePrice = 12;
-};console.log("sizePrice="+sizePrice);
+    console.log("sizePrice="+sizePrice);
+}
+}
+var cheese=document.querySelector('input[name="cheese"]:checked').value;
+console.log("cheese"=+cheese);
+if (cheese==="Extra cheese") {
+    cheeseprice=2;
+};
+if (cheese==="regular cheese") {
+    cheeseprice=1;
+    console.log("cheeseprice="+cheeseprice);
+}
